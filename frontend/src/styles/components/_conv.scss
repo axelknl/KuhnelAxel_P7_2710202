@@ -1,0 +1,52 @@
+.conversationList {
+    background-color: white;
+    min-width: 320px;
+    max-width: 320px;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.conversationList .conversation__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    h3 {
+        line-height: 22px;
+        display: block;
+        margin: auto 0;
+    }
+
+    .logo {
+        img {
+            width: 25px;
+            height: 25px !important;
+        }
+    }
+}
+
+.conversationList .conversationNotification {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+    .conv__picture {
+        min-width: 40px;
+        height: 40px;
+        background-color: #eeeeee;
+        border-radius: 20px;
+        margin: auto 0;
+        margin-right: 10px;
+    }
+
+    .conv__information {
+        .conv__message {
+            max-width: 230px;
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis !important;
+        }
+    }
+}

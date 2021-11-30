@@ -1,0 +1,23 @@
+.searchbar {
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #eeeeee;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 20px;
+
+    &__logo {
+        margin: auto 0;
+        margin-right: 15px;
+        img {
+            height: 20px;
+        }
+    }
+
+    input {
+        width: 535px;
+        border-style: none;
+        background-color: inherit;
+    }
+}

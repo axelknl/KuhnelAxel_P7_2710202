@@ -1,0 +1,101 @@
+.uploader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    z-index: 100;
+    top: 0;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+
+    &__box {
+        padding: 24px 32px;
+        max-width: 800px;
+        width: 100%;
+        background-color: white;
+        border-radius: 16px;
+        margin: 0 auto;
+        z-index: 101;
+        position: relative;
+
+        .close {
+            position: absolute;
+            cursor: pointer;
+            background-color: #d4d4d4;
+            width: 50px;
+            height: 50px;
+            padding: 15px;
+            border-radius: 16px;
+            top: 0;
+            right: 0;
+            transform: translate(50%, -50%);
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__row {
+            margin-bottom: 24px;
+            display: flex;
+            flex-direction:column;
+    
+            input {
+                margin-top: 12px;
+                padding-left: 10px;
+                width: 100%;
+                height: 40px;
+                border-radius: 7px;
+                border: 1px solid rgb(226, 226, 226);
+            }
+
+            textarea {
+                margin-top: 12px;
+                padding: 10px 12px;
+                width: 100%;
+                min-height: 130px;
+                border-radius: 7px;
+                border: 1px solid rgb(226, 226, 226);
+            }
+
+            .img__container {
+                width: 100%;
+                max-height: 500px;
+                text-align: center;
+
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                    display: none;
+                }
+            }
+        }
+
+        .uploader__buttonBox {
+            width: 100%;
+            text-align: right;
+        }
+    
+        .post {
+            width: 150px !important;
+            background-color: #150BD4;
+            font-size: 16px;
+            color: white;
+            font-weight: 600;
+            line-height: 40px !important;
+            border-radius: 7px;
+            border: 1px solid rgb(226, 226, 226);
+            padding: 0 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 874px) {
+    .uploader .close {
+        right : 50%;
+        transform: translate(50%, -50%);
+    }
+}

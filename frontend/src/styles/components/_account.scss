@@ -1,0 +1,319 @@
+
+.account__container {
+    max-width: 950px !important;
+    padding-top: 24px;
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3 {
+        font-size: 32px;margin-bottom: 12px;
+    }
+
+    .menu {
+        margin-top: 32px;
+        width: 100%;
+        padding-right: 16px;
+
+        .item {
+            padding: 8px 16px;
+            border-radius: 16px;
+            width: 100% !important;
+            font-weight: 500;
+            font-size: 18px;
+            letter-spacing: 0.7px;
+            cursor: pointer;
+            background-color: #150BD4;
+            color: white;
+        }
+    }    
+}
+
+
+.accmodule {
+    background-color: white;
+    width: 750px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    position: relative;
+    box-shadow: -5px 7px 5px 2px #0000001f;
+    margin-bottom: 40px;
+
+    h3 {
+        margin-bottom: 30px;
+    }
+
+    hr {
+        margin: 20px 0;
+        background-color: rgb(233, 231, 231);
+        height: 1px;
+        border: none;
+    }
+
+    &__avatarrow label {
+        cursor: pointer;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rowspace {
+        justify-content: space-between;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        label {
+            margin-bottom: 7px;
+        }
+
+        input {
+            padding-left: 10px;
+            width: 100%;
+            height: 40px;
+            border-radius: 7px;
+            border: 1px solid rgb(226, 226, 226);
+        }
+    }
+
+    .accmodule__save {
+        width: 100%;
+        text-align: right;
+    }
+
+    .save {
+        background-color: #150BD4;
+        font-size: 16px;
+        text-align: right;
+        color: white;
+        font-weight: 600;
+        line-height: 40px !important;
+        border-radius: 7px;
+        border: 1px solid rgb(226, 226, 226);
+        padding: 0 15px;
+        cursor: pointer;
+    }
+}
+
+.accmodule__avatar {
+    h5 {
+        margin-bottom: 15px;
+    }
+
+    .accmodule__picture {
+        background-color: #150BD4;
+        margin-right: 15px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        color: #150BD4;
+        font-weight: 600;
+        display: block;
+        margin: auto 0;
+        margin-right: 15px;
+        height: 40px !important;
+        line-height: 40px;
+        border-radius: 7px;
+        border: 1px solid rgb(226, 226, 226);
+        padding: 0 15px;
+
+        
+    }
+
+    label:hover {
+            color: white;
+            background-color: #150BD4;
+            border-color: #150BD4;
+    }
+
+    span {
+        display: block;
+        margin: auto 0;
+        height: 40px !important;
+        line-height: 40px;
+        border-radius: 7px;
+        border: 1px solid rgb(226, 226, 226);
+        padding: 0 15px;
+    }
+}
+
+.cpassword {
+    background-color: white;
+    width: 750px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    position: relative;
+    box-shadow: -5px 7px 5px 2px #0000001f;
+    margin-bottom: 40px;
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    hr {
+        margin: 20px 0;
+        background-color: rgb(233, 231, 231);
+        height: 1px;
+        border: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        label {
+            margin-bottom: 7px;
+        }
+
+        input {
+            padding-left: 10px;
+            width: 100%;
+            height: 40px;
+            border-radius: 7px;
+            border: 1px solid rgb(226, 226, 226);
+        }
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    span {
+        background-color: #150BD4;
+        font-size: 16px;
+        text-align: right;
+        color: white;
+        font-weight: 600;
+        line-height: 40px !important;
+        border-radius: 7px;
+        border: 1px solid rgb(226, 226, 226);
+        padding: 0px 15px;
+        cursor: pointer;
+    }
+}
+
+.daccount {
+    background-color: white;
+    width: 750px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    position: relative;
+    box-shadow: -5px 7px 5px 2px #0000001f;
+    margin-bottom: 40px;
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    hr {
+        margin: 20px 0;
+        background-color: rgb(233, 231, 231);
+        height: 1px;
+        border: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        input {
+            margin-right: 16px;
+        }
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    span {
+        background-color: #e53935        ;
+        font-size: 16px;
+        text-align: right;
+        color: white;
+        font-weight: 600;
+        line-height: 40px !important;
+        border-radius: 7px;
+        border: 1px solid rgb(226, 226, 226);
+        padding: 0px 15px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .account {
+
+        &__title {
+            margin-left: 24px;
+        }
+
+        .menu {
+            display : none
+        }
+    }
+
+    .accmodule {
+        width: 100vw;
+    }
+
+    .cpassword {
+        width: 100vw;
+    }
+
+    .daccount {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .accmodule {
+        .rowspace {
+            flex-direction: column;
+
+            .col {
+                margin-bottom: 24px;
+                width : 100%;
+            }
+        }
+    }
+
+    .cpassword {
+        .row {
+            flex-direction: column;
+
+            .col {
+                margin-bottom: 24px;
+                width : 100%;
+            }
+        }
+    }
+}

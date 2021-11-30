@@ -1,0 +1,115 @@
+.register {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    &__section {
+        display: block;
+        margin: auto auto;
+        width: 450px;
+
+        &__logo {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 36px;
+            letter-spacing: 1.2px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: #150BD4;
+        }
+
+        &__subtitle {
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: rgb(80, 80, 80);
+            margin-bottom: 30px;
+        }
+
+        .register__form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                margin-bottom: 5px;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+            }
+
+            input {
+                margin-bottom: 20px;
+                border: 2px solid #efefef;
+                height: 50px;
+                border-radius: 50px;
+                padding: 0 20px;
+            }
+
+            &__button {
+                background-color: #150BD4;
+                color: white;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                padding: 13px 0;
+                border-radius: 50px;
+                margin-bottom: 35px;
+                cursor: pointer;
+            }
+
+            &__notlog {
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+
+                a {
+                    color: #150BD4;
+                }
+            }
+        }
+    }
+
+    &__graphic {
+        width: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.register__form__picture {
+    overflow: hidden;
+    display: none;
+}
+
+.register__form__label__picture {
+    background-color: #150BD4;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    margin-bottom: 20px !important;
+}
+
+@media screen and (max-width : 768px) {
+    .register {
+
+        &__section {
+            padding : 0 20px;
+        }
+        
+        &__graphic {
+            display : none;
+        }
+    }
+}

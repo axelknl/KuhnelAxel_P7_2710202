@@ -1,0 +1,104 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__section {
+        display: block;
+        margin: auto auto;
+        width: 450px;
+
+        &__logo {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 36px;
+            letter-spacing: 1.2px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: #150BD4;
+        }
+
+        &__subtitle {
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: rgb(80, 80, 80);
+            margin-bottom: 30px;
+        }
+
+        .login__form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                margin-bottom: 5px;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                font-weight: 600;
+            }
+
+            input {
+                margin-bottom: 20px;
+                border: 2px solid #efefef;
+                height: 50px;
+                border-radius: 50px;
+                padding: 0 20px;
+            }
+
+            &__forgot {
+                color: #150BD4;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                margin-bottom: 35px;
+            }
+
+            &__button {
+                background-color: #150BD4;
+                color: white;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                padding: 13px 0;
+                border-radius: 50px;
+                margin-bottom: 35px;
+                cursor: pointer;
+            }
+
+            &__notsign {
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+
+                a {
+                    color: #150BD4;
+                }
+            }
+        }
+    }
+
+    &__graphic {
+        width: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .login {
+
+        &__section {
+            padding : 0 20px;
+        }
+        
+        &__graphic {
+            display : none;
+        }
+    }
+}
