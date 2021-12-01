@@ -1,5 +1,15 @@
 # KuhnelAxel_P7_2710202
 
+## Présentation du Projet :
+
+Réalisation d'un réseau social interne pour l'entreprise Groupomania.
+
+Vous pouvez utiliser le site pour partager du contenu entre collègues (Text et images). 
+
+Le frontend a été réalisé avec React.Js et Firebase. 
+
+Le Backend est une Api Node.Js utilisant le package Mysql2 pour communiquer avec une Database MySQL
+
 ## Etapes :
 1 . Clonez le répertoire : `git clone ..... nomDeVotreDossier`. 
 
