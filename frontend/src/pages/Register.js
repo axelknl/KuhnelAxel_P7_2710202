@@ -72,10 +72,10 @@ return (
                 <input onChange={(e) => {setAgeReg(e.target.value)}} type="number" placeholder="22"  className="register__form__age"></input>
 
                 <label>Mot de Passe*</label>
-                <input onChange={(e) => {setPasswordReg(e.target.value)}} placeholder="Min. 8 Character" className="register__form__mdp"></input>
+                <input type="password" onChange={(e) => {setPasswordReg(e.target.value)}} placeholder="Min. 8 Character" className="register__form__mdp"></input>
 
                 <label>Confirmer Mot de Passe*</label>
-                <input onChange={(e) => {setConfpassReg(e.target.value)}} placeholder="Min. 8 Character" className="register__form__checkmdp"></input>
+                <input type="password" onChange={(e) => {setConfpassReg(e.target.value)}} placeholder="Min. 8 Character" className="register__form__checkmdp"></input>
 
                 <div onClick={verifyRegister} className="register__form__button">S'inscrire</div>
 
