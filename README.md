@@ -31,4 +31,7 @@ Le Backend est une Api Node.Js utilisant le package Mysql2 pour communiquer avec
 
 10 . Une fenêtre navigateur s'ouvre et vous pouvez tester l'application. 
 
-BONUS . Dans le fichier `frontend/src/components/AccountModule.js` vous pouvez modifiez les données firebase pour utiliser votre propre projet.
+BONUS . Dans le fichier `frontend/src/components/AccountModule.js` vous pouvez modifiez les données firebase pour utiliser votre propre projet.  
+
+ATTENTION : Vous devez avoir au préalable installé NodeJS sur votre machine. 
+
