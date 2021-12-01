@@ -5,7 +5,7 @@
 
 2 . Ouvrez le projet avec un éditeur de code (ex : Visual Studio Code). 
 
-3 . rendez vous dans les deux sous-dossiers : backend et frontend  `cd backend`  et  `cd frontend`  
+3 . Rendez vous dans les deux sous-dossiers : backend et frontend  `cd backend`  et  `cd frontend`  
 
 4 . Installer le projet en éxecutant `npm install` dans chacun de ces deux dossiers. 
 
